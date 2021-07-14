@@ -6,19 +6,88 @@
 }
 
 .Navbar li {
-    display: inline;
+    display: inline-block;
     float: right;
-    padding: 6px;
+    padding: 12px 7px 7px 12px;
+    font-family: arial;
+    font-size: 14px;
     
 }
 
-.Navbar li a {
-   
-   
+
+li a {
+    text-decoration: none;
 }
 
-.Logo {
-    top: 50%;
+
+li a:hover {
+    text-decoration: underline;
+}
+
+p a {
+    font-size: 14px;
+    font-family: arial;
+    text-decoration: none;
+
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+.button {
+    background-color: #f8f9fa;
+    text-align: center;
+    font-size: 14px;
+    width: 50;
+    padding: 14px 40px;
+    border: 1px solid #f8f9fa
+}
+
+.button:hover {
+    border: 1px solid gray;
+
+}
+
+.searchbar {
+    align-items: center;
+    border-radius: 15px;
+    height: 35px;
+    width: 500px;
+}
+
+#logo-container {
+
+    position: absolute;
+    text-align: center;
     left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    
+
+    
+
+}    
+
+
+#searchbar {
+    
+    align-items: center;
+    padding: 20px 0 20px 0;
+    
+    
+
+}
+
+
+#logo {
+   height: 92px;
+   width: 272px;
+  
+}
+
+#button-container {
+    text-align: center;
+    align-items: center;
+    
     
 }
